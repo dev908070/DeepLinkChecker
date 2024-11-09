@@ -19,25 +19,26 @@ The `content_urls_check` API provides an endpoint that scans and analyzes extern
 
 1. Clone the repository:
 
-   ```bash git clone https://github.com/yourusername/VerifyLink.git```
-   ```bash cd VerifyLink```
+   ```bash git clone https://github.com/yourusername/VerifyLink.git ```
+   
+   ```bash cd VerifyLink ```
 
-2. Install dependencies:
+3. Install dependencies:
 
-    ```bash pip install -r requirements.txt```
+    ```bash pip install -r requirements.txt ```
 
-3. Set up your VirusTotal API Key:
+4. Set up your VirusTotal API Key:
     - Sign up for a VirusTotal API Key.
     - Add your API key in the environment settings or replace it directly in the code (not recommended for security reasons).
 
-4. Configure your Django settings:
+5. Configure your Django settings:
     - Add the URLsChecker app to your INSTALLED_APPS in Django settings.
     - Ensure your database is configured.
 
-5. Run migrations:
+6. Run migrations:
 
-    ```bash python manage.py migrate```
+    ```bash python manage.py migrate ```
 
-6. Start the server:
+7. Start the server:
 
-    ```bash python manage.py runserver```
+    ```bash python manage.py runserver ```
