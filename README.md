@@ -19,13 +19,13 @@ The `content_urls_check` API provides an endpoint that scans and analyzes extern
 
 1. Clone the repository:
 
-   ```bash git clone https://github.com/yourusername/VerifyLink.git ```
+   ```git clone https://github.com/yourusername/VerifyLink.git ```
    
-   ```bash cd VerifyLink ```
+   ```cd VerifyLink ```
 
 3. Install dependencies:
 
-    ```bash pip install -r requirements.txt ```
+    ```pip install -r requirements.txt ```
 
 4. Set up your VirusTotal API Key:
     - Sign up for a VirusTotal API Key.
@@ -37,8 +37,8 @@ The `content_urls_check` API provides an endpoint that scans and analyzes extern
 
 6. Run migrations:
 
-    ```bash python manage.py migrate ```
+    ```python manage.py migrate ```
 
 7. Start the server:
 
-    ```bash python manage.py runserver ```
+    ```python manage.py runserver ```
