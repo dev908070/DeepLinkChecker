@@ -19,7 +19,7 @@ The `content_urls_check` API provides an endpoint that scans and analyzes extern
 
 1. Clone the repository:
 
-   ```git clone https://github.com/yourusername/VerifyLink.git ```
+   ```git clone [https://github.com/yourusername/VerifyLink.git](https://github.com/dev908070/DeepLinkChecker.git) ```
    
    ```cd VerifyLink ```
 
