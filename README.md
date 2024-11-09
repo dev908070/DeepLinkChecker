@@ -28,12 +28,11 @@ The `content_urls_check` API provides an endpoint that scans and analyzes extern
     ```pip install -r requirements.txt ```
 
 4. Set up your VirusTotal API Key:
-    - Sign up for a VirusTotal API Key.
+    - Sign up for https://www.virustotal.com/gui/my-apikey API Key.
     - Add your API key in the environment settings or replace it directly in the code (not recommended for security reasons).
 
 5. Configure your Django settings:
     - Add the URLsChecker app to your INSTALLED_APPS in Django settings.
-    - Ensure your database is configured.
 
 6. Run migrations:
 
